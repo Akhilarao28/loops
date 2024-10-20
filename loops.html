@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=6
+        if(num>0){
+            console.log("Positive")
+            if(num%2===0){
+                console.log("even")
+            }
+            else{
+                console.log("odd")
+            }
+        }
+        else if(num<0){
+            console.log("Negative")
+        }
+        else{
+            console.log("Zero")
+        }
+
+        //add two numbers if only both are even numbers
+        let num1=2
+        let num2=6
+        if(num1%2===0 && num2%2===0){
+            console.log(num1+num2)
+        }
+        else{
+            console.log("not valid")
+        }
+
+        //program with a num prints the multiplication table for that number from 1 to 10 using a loop.
+        var n=5
+        for(var i=1;i<=10;i++){
+            console.log(n,"*",i,"=",n*i)
+        }
+    
+
+    </script>
+</body>
+</html>
